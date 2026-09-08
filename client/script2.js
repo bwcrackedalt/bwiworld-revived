@@ -1,7 +1,11 @@
 /*
 
-THIS WASN'T VIBE CODED
-NOT ONE OUNCE OF AI SLOPPERY
+THIS WAS VIBECODED
+WITH A GALLON OF AI SLOPPERY /j
+
+sticky once betrayed us
+
+- Agent Smith, 2026
 
 */
 var $ = (a) => {return document.getElementById(a)}

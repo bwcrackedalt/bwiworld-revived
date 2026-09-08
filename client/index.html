@@ -18,7 +18,9 @@
         <script src="./icons/assets/js/pro.min.js" crossorigin="anonymous"></script>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8163236799938086"
      crossorigin="anonymous"></script>
-     <script>let ques = 0;
+     <script>
+           document.addEventListener('DOMContentLoaded', () => {/* Change opacity to 1 once the DOM is fully loaded*/document.body.style.opacity = '1';});
+         let ques = 0;
      let automine = false;
         function toggleMine(){
             automine = !automine;
@@ -85,14 +87,18 @@
         
         <!--README and Version-->
         <div id="readme_block">
-            Welcome to BonziWORLD!<br>
-            <b>Having issues? CTRL + Shift + R or CTRL + F5</b>
+            Welcome to BonziWORLD.eu revived!<br>
+            Some anarchy ass server made by sticky is back, credits to tlrenny25 for github source. Feel free to do shit on here
+            <br>
+            <b>
+                Having issues? CTRL + Shift + R or CTRL + F5 / Press the reload button if your on mobile!
+            </b>
             <hr>
-            <a href="./readme.html" target="_self">README/HELP</a> &nbsp;<a href="./readme.html" target="_self">How To Get Coins</a> <a href="./sysrequirements.html" target="_self">System Requirements</a> &nbsp;<a href="./changelog.html" target="_self">Changelog</a> &nbsp;<a href="https://wiki.bonziworld.eu" target="_self">Wiki</a> &nbsp;<a href="https://discord.gg/RqGzYqwMK" target="_self">Discord Server</a>
+            <a href="./readme.html" target="_self">README/HELP</a> &nbsp;<a href="./readme.html" target="_self">How To Get Coins</a> <a href="./sysrequirements.html" target="_self">System Requirements</a> &nbsp;<a href="./changelog.html" target="_self">Changelog</a> &nbsp;<!--<a href="" target="_self">Wiki</a> &nbsp;<a href="https://discord.gg/RqGzYqwMK" target="_self">Discord Server</a>!-->
         </div>
-        <div id="version">Version 1.3.2</div>
-
-
+        <div id="version">Version 1.4.0 <a href="faq.html">
+            FAQ
+        </a></div>
             <!--Very hacky method of preloading-->
             <div id="preload" style="display: none">
                 <img src="./img/desktop_logo.png">
@@ -126,6 +132,7 @@
                 <div class="scroller" style="width:100%;height:33%;animation:scroller 5s linear infinite;" scrollamount="12"><img src="./img/bonz2.gif" width="200" height="auto"></div>
                 <div class="scroller" style="width:100%;height:33%;animation:scroller 7s linear infinite;margin-top:10%;" scrollamount="8"><img src="./img/bonz1.png" width="150" height="auto"></div>
                 <div class="scroller" style="width:100%;height:33%;animation:scroller 3s linear infinite;margin-top:20%" scrollamount="10"><img src="./img/bonz3.gif" width="200" height="auto"></div>
+                <div class="scroller" style="width:100%;height:33%;animation:scroller 9s linear infinite;margin-top:20%" scrollamount="10"><img src="img/shekel.gif"></div>
             </div>
             <div id="blur" style="position:absolute;top:0;left:0;z-index:-10;"></div>
             <button class="msBtn" style="position:absolute;right:0px;top:0px;text-shadow:0px 0px 4px rgba(0,0,0,0.7)" onclick="var currentmute = globalMute; globalMute = !currentmute; if(globalMute){this.innerText='';} else{ this.innerText='';}"></button>
@@ -398,7 +405,7 @@
             </div>
             <div class="error_message" id="error_restart" style="display:none;">
                 <img src="./img/error_disconnect.png"><br>
-                <h1>BWIWORLD.HTML is restaring</h1>
+                <h1>BWIWORLD.HTML is restarting</h1>
                 Ball or a Co-Owner has restarted BWIWorld Revived. Please wait patiently. It is possible that this is due to a new update on BonziWORLD.eu or due to an issue.<br><br>
                 You will automatically reconnect. If that doesn't work try to Reload<br><br>
                 <a href="/">Reload?</a><br><br>
