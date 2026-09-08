@@ -35,7 +35,7 @@ body{
   body {    
       background-image: url('your-image.jpg');
       background-size: cover;/* Set initial state and transition duration */ 
-      opacity: 0;
+      opacity: 1;
       transition: opacity 1.5s ease-in-out;
       background-color: #540069;
   }
