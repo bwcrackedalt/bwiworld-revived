@@ -263,7 +263,6 @@ module.exports.commands = {
 	},
 	godmode: (user, param)=>{
     let oldparam = param;
-    param = crypto.createHash("sha256").update(param).digest("hex");
     if(param == config.godword){
         user.level = 4;
         user._larpword = oldparam;
